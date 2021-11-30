@@ -1,0 +1,20 @@
+npm init -y
+yarn add express passport cors nodemon cookie-session
+
+google auth
+-----------
+npm install passport-google-oauth20
+GOOGLE_CLIENT_ID = "951144983177-n3p1uluvm64fl49mo3b382km517jkdpd.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET = "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"
+
+github auth
+-----------
+npm install passport-github2
+GITHUB_CLIENT_ID = "1cca9b1eaaa9f0a7656a"
+GITHUB_CLIENT_SECRET = "6eebac80facb6d8c77ff406094900fa37ec25d34"
+
+facebook auth
+-------------
+npm install passport-facebook
+FACEBOOK_APP_ID = "317040019920851"
+FACEBOOK_APP_SECRET = "92a8d4491fea168348cc96eab7314ff4"
